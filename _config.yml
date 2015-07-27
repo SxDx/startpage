@@ -1,0 +1,13 @@
+# Site settings
+title: Startpage
+email: your-email@domain.com
+description: "Custom Browser Startpage"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "startpage.dev" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+exclude: [Gemfile, Gemfile.lock, README.md]
+
+sass:
+  style: compressed

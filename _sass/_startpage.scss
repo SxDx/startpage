@@ -1,0 +1,48 @@
+$text-color: white;
+* {
+  font-family: 'Source Code Pro' !important;
+}
+body {
+  background-image: url("../assets/background_4.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-transform: uppercase;
+  overflow: hidden;
+  color: $text-color;
+  a {
+    color: $text-color;
+    text-decoration: none;
+    &:visited {
+      color: $text-color;
+    }
+    &:hover {
+      color: $text-color;
+    }
+  }
+}
+.startpage {
+  @include outer-container;
+  .column {
+    @include span-columns(3 of 14);
+    &:first-child {
+      @include shift(1);
+    }
+    margin-top: 250px;
+    .links {
+      margin-left: 10px;
+    }
+    h1 {
+      font-size: 1.3em;
+      margin-right: 25px;
+      margin-bottom: 5px;
+      border-bottom: 4px solid $text-color;
+    }
+    a {
+      @include span-columns(12);
+      font-size: 0.9em;
+      display: inline-block;
+    }
+  }
+}

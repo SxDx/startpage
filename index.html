@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="startpage">
+
+  {% for category in site.data.bookmarks %}
+  <section class="column">
+    <h1>{{ category.header }}</h1>
+    <div class="links">
+      {% for bookmark in category.links %}
+        <a href="http://{{ bookmark.url }}">{{ bookmark.name }}</a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+</div>

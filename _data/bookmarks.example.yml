@@ -1,0 +1,24 @@
+- header: Entertainment
+  links:
+    - name: Reddit
+      url: reddit.com
+    - name: Facebook
+      url: facebook.com
+
+- header: News
+  links:
+    - name: Hacke News
+      url: news.ycombinator.com
+    - name: Producthunt
+      url: www.producthunt.com
+
+- header: Dev
+  links:
+    - name: Github
+      url: github.com/trending
+    - name: Trello
+      url: www.trello.com
+    - name: /r/ruby
+      url: reddit.com/r/ruby
+    - name: /r/rails
+      url: reddit.com/r/rails
