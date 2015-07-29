@@ -1,5 +1,7 @@
 # Custom Browser Startpage
 
+![Startpage Preview](assets/preview.png)
+
 1. ````$ bundle install````
 2. ````$ mv _data/bookmarks.example.yml _data/booksmarks.yml````
 3. Edit / Add your own bookmarks
