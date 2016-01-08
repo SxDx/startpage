@@ -7,3 +7,6 @@ gem 'jekyll-watch'
 gem 'bourbon'
 gem 'neat'
 gem 'bitters'
+
+gem 'capistrano'
+gem 'capistrano-jekyll'
