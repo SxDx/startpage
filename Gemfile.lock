@@ -63,8 +63,6 @@ DEPENDENCIES
   capistrano
   capistrano-jekyll
   jekyll
-  jekyll-watch
-  kramdown
   neat
 
 BUNDLED WITH
