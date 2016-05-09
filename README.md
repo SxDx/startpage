@@ -7,4 +7,4 @@
 3. Edit / Add your own bookmarks
 4. Choose one of the included background images from [unsplash.com](Unsplash) in ````_sass/_startpage.scss````
 5. ````$ jekyll build````
-6. Point your browser to _site/index.html
+6. Point your browser to  ````_site/index.html ````
