@@ -7,7 +7,7 @@
 
 - header: News
   links:
-    - name: Hacke News
+    - name: Hacker News
       url: news.ycombinator.com
     - name: Producthunt
       url: www.producthunt.com
