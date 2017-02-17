@@ -1,48 +1,64 @@
-$text-color: white;
-* {
-  font-family: 'Source Code Pro' !important;
+$text-color: rgba(255,255,255,.8);
+
+*
+{
+    font-family: 'Source Code Pro' !important;
 }
-body {
-  background-image: url("../assets/background_4.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  text-transform: uppercase;
-  overflow: hidden;
-  color: $text-color;
-  a {
+body
+{
+    overflow: hidden;
+
+    text-transform: uppercase;
+
     color: $text-color;
-    text-decoration: none;
-    &:visited {
-      color: $text-color;
+    background-image: url('../assets/background_1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    a
+    {
+        text-decoration: none;
+
+        color: $text-color;
+        &:visited
+        {
+            color: $text-color;
+        }
+        &:hover
+        {
+            color: darken($text-color, 30%);
+        }
     }
-    &:hover {
-      color: $text-color;
-    }
-  }
 }
-.startpage {
-  @include outer-container;
-  .column {
-    @include span-columns(3 of 14);
-    &:first-child {
-      @include shift(1);
+.startpage
+{
+    @include outer-container;
+    .column
+    {
+        margin-top: 200px;
+
+        @include span-columns(1 of 4);
+        .links
+        {
+            margin-left: 10px;
+        }
+        h1
+        {
+            font-size: 1.3em;
+
+            margin-right: 25px;
+            margin-bottom: 5px;
+
+            border-bottom: 4px solid $text-color;
+        }
+        a
+        {
+            font-size: .9em;
+
+            display: inline-block;
+
+            @include span-columns(12);
+        }
     }
-    margin-top: 250px;
-    .links {
-      margin-left: 10px;
-    }
-    h1 {
-      font-size: 1.3em;
-      margin-right: 25px;
-      margin-bottom: 5px;
-      border-bottom: 4px solid $text-color;
-    }
-    a {
-      @include span-columns(12);
-      font-size: 0.9em;
-      display: inline-block;
-    }
-  }
 }
