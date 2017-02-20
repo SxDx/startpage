@@ -209,6 +209,7 @@ DEPENDENCIES
   bitters (~> 1.2)
   bourbon (~> 4.2)
   github-pages (= 123)
+  json
   neat (~> 1.8)
 
 BUNDLED WITH
